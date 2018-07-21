@@ -1,0 +1,145 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    #main {
+        width: 100%;
+    }
+    div.content {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    #main {
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    #main {
+        margin-left: 14%;
+        margin-right: 14%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    #main {
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    #main {
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+}
+
+#citation {
+    font-size: 25px;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+#title {
+    margin: 0;
+    padding-top: 5%;
+    text-align: center;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+
+#wiki {
+    padding-top: 5%;
+}
+
+#wiki p {
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color: #3498DB;
+}
+
+body {
+    font-family: sans-serif, courier;
+    padding: 0;
+    margin: 0;
+}
+
+blockquote {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+cite {
+    color: #6a6a6a;
+    position: relative;
+    float: right;
+}
+
+figcaption {
+    color: #6d6d6d;
+    margin: 0;
+    font-style: italic;
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+figure {
+    border: 1px solid #6d6d6d;
+    border-radius: 4px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: #fff;
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+footer a {
+    margin-left: auto;
+}
+
+footer p {
+    color: #6d6d6d;
+    font-size: 12px;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+ul li {
+    line-height: 30px;
+}
+
+.ctr {
+    background-color: #eee;
+}
